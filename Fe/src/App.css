@@ -1,0 +1,288 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+header {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Homepage Styles */
+.homepage-container {
+  padding: 20px;
+}
+
+.homepage-title {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.homepage-description {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.loading-text,
+.no-blogs-text {
+  font-size: 16px;
+  color: #888;
+  text-align: center;
+}
+
+.blogs-container {
+  margin-top: 20px;
+}
+
+.blogs-list {
+  list-style: none;
+  padding: 0;
+}
+
+.blog-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.blog-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.blog-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.blog-content {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+.buttons {
+  display: flex;
+}
+.buttons button {
+  display: inline-block;
+  border: none;
+  padding: 10px 15px;
+  width: fit-content;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  text-decoration: none;
+  margin-right: 10px;
+  color: white;
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+button.read-more {
+  background-color: #007bff;
+}
+
+button.read-more:hover {
+  background-color: #0056b3;
+}
+
+button.delete {
+  background-color: #dc3545;
+}
+
+button.delete:hover {
+  background-color: #c82333;
+}
+button.edit {
+  background-color: #ffc107;
+  color: white;
+}
+
+button.edit:hover {
+  background-color: #e0a800;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+form button {
+  background-color: #007BFF;
+  width: fit-content;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+/* Blog List for Delete Page */
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+li h3 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+}
+
+li p {
+  margin: 0 0 10px 0;
+  color: #666;
+}
+
+
+.blog-details-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-details-container h1 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.blog-details-container p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 20px;
+  }
+
+  header nav a {
+    font-size: 14px;
+  }
+
+  .homepage-title {
+    font-size: 24px;
+  }
+
+  .blog-item {
+    padding: 10px;
+  }
+
+  form input,
+  form textarea {
+    font-size: 14px;
+  }
+}
+/* Pagination Container */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+  list-style-type: none;
+}
+
+/* Pagination Links */
+.pagination a {
+  text-decoration: none;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  color: #007bff;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Active Page */
+.pagination a.active {
+  background-color: #007bff;
+  color: white;
+  border: 1px solid #007bff;
+}
+
+/* Hover Effect */
+.pagination a:hover {
+  background-color: #ddd;
+  color: #0056b3;
+}
+
+/* Previous and Next Links */
+.pagination a.prev,
+.pagination a.next {
+  font-weight: bold;
+}

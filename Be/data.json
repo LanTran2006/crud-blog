@@ -1,0 +1,78 @@
+[
+  {
+    "id": 1,
+    "title": "The Journey of JavaScript",
+    "content": "JavaScript has revolutionized web development. In this blog, we explore its journey from inception to becoming the backbone of modern web applications.",
+    "author": "John Doe",
+    "createdAt": "2023-12-15T14:30:00Z"
+  },
+  {
+    "id": 2,
+    "title": "Mastering java",
+    "content": "React is a popular JavaScript library for building user interfaces. This blog covers essential tips and techniques to master React development.",
+    "author": "Jane Smith",
+    "createdAt": "2023-12-16T09:00:00Z"
+  },
+  {
+    "id": 3,
+    "title": "Understanding Node.js",
+    "content": "Node.js allows developers to use JavaScript for server-side programming. Learn how it works and why it's a game-changer in backend development.",
+    "author": "Alex Johnson",
+    "createdAt": "2023-12-17T12:45:00Z"
+  },
+  {
+    "id": 4,
+    "title": "CSS Tricks for Beginners",
+    "content": "CSS can make your websites visually appealing. Discover some easy-to-follow tips for styling your web pages like a pro.",
+    "author": "Emma Brown",
+    "createdAt": "2023-12-18T10:15:00Z"
+  },
+  {
+    "id": 5,
+    "title": "API Development with Express",
+    "content": "Express.js is a minimal and flexible Node.js web application framework. Learn how to create RESTful APIs using Express.",
+    "author": "Chris Green",
+    "createdAt": "2023-12-19T16:20:00Z"
+  },
+  {
+    "id": 6,
+    "title": "Docker for Beginners",
+    "content": "Docker simplifies application deployment by containerizing applications. Discover the basics of Docker and how to get started.",
+    "author": "Sophia White",
+    "createdAt": "2023-12-20T08:30:00Z"
+  },
+  {
+    "id": 7,
+    "title": "Introduction to TypeScript",
+    "content": "TypeScript is a superset of JavaScript that adds static typing. Learn why TypeScript is becoming popular and how to use it effectively.",
+    "author": "Michael Brown",
+    "createdAt": "2023-12-21T11:00:00Z"
+  },
+  {
+    "id": 8,
+    "title": "Deploying Apps with Heroku",
+    "content": "Heroku is a cloud platform for deploying web applications. This blog provides a step-by-step guide to deploying your app on Heroku.",
+    "author": "Emily Davis",
+    "createdAt": "2023-12-22T14:45:00Z"
+  },
+  {
+    "id": 9,
+    "title": "Version Control with Git",
+    "content": "Git is essential for modern software development. Learn how to use Git effectively for version control and collaboration.",
+    "author": "Daniel Martinez",
+    "createdAt": "2023-12-23T09:30:00Z"
+  },
+  {
+    "id": 10,
+    "title": "Building RESTful APIs",
+    "content": "RESTful APIs are the backbone of modern applications. This blog explains the principles of REST and how to create APIs step by step.",
+    "author": "Laura Wilson",
+    "createdAt": "2023-12-24T13:15:00Z"
+  },
+  {
+    "id": "1734832641149",
+    "title": "hello",
+    "content": "test123",
+    "createdAt": "2024-12-22T01:57:21.149Z"
+  }
+]

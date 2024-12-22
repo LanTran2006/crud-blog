@@ -1,7 +1,7 @@
-# Blog Frontend with React
+# Blog Project
 
 ## **Overview**
-This project is a React-based frontend for interacting with a Blog API. It allows users to create, view, edit, and delete blogs, with support for pagination and detailed blog views.
+This project is a basic website for interacting with a Blog API. It allows users to create, view, edit, and delete blogs, with support for pagination and detailed blog views.
 
 ---
 
